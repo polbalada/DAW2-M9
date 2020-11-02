@@ -1,0 +1,27 @@
+/** {
+    outline: 1px solid red !important;
+}*/
+.content {
+    display: flex;
+}
+
+.image {
+    flex: 1;
+}
+
+.description {
+    font-family: sans-serif;
+    color:blue;
+    flex: 2;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.title{
+    padding-top: 20px;
+    background-color: blue;
+    color: white;
+}
