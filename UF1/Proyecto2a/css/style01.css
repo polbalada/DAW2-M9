@@ -1,0 +1,55 @@
+/** {
+    outline: 1px solid red !important;
+}*/
+.container {
+    width: 800px;
+    margin: auto;
+ }
+ header {
+    display: flex;
+ }
+ 
+ .logo {
+    flex: 1;
+ }
+   
+ .title {
+   flex: 4;
+ }
+
+ header {
+    display: flex;
+ }
+ 
+ .logo {
+    flex: 1;
+ }
+   
+ .title {
+   flex: 4;
+ }
+ 
+ .items-container {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .item {
+    text-align: center;
+ }
+ @font-face {
+    font-family: "Main title";
+    src: url(../fonts/Lato-Hairline.ttf) format("truetype");
+ }
+ 
+ @font-face {
+    font-family: Text;
+    src: url(../fonts/Lato-Light.ttf) format("truetype");
+ }
+ 
+ .container {
+    width: 800px;
+    margin: auto;
+    font-family: Text, sans-serif;
+ }
+ 
