@@ -1,0 +1,73 @@
+header nav{
+    padding: 0 10%;
+}
+header nav *{
+    color: grey;
+    text-decoration: none;
+    margin: 0% 1%;
+}
+header *{
+    display: inline;
+    align-items: baseline;
+    
+}
+header #icon{
+    background-color: white;
+    border: 0px;
+}
+
+header #logo{
+    width: 130px;
+    margin: 0 10%;
+}
+
+#botoCompra{
+    border-radius: 5px;
+    background-color: #1eff38af;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#imagenGrande{
+    width: 100%;
+}
+
+
+#logos{
+    display: inline;
+    margin: 9%;
+}
+
+#logos img{
+    height: 125px;
+    margin: 0 5%;
+}
+
+#descripcion h2{
+    color: #1eff38af;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#descripcion h1{
+    /*color: darkgrey;*/
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 0% 35%;
+}
+
+#descripcion h1 span{
+    font-weight: bold;
+}
+
+#descripcion p{
+    color: grey;
+    font-size: 21px;
+    text-align: center;
+    margin: 0 30%;
+}
