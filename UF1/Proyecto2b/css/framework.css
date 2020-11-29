@@ -15,7 +15,7 @@ img {
     max-width: 960px;
 }
 
-/* [class|="col"] {
+ [class|="col"] {
     margin: 0px 0.25rem;
 }
 
@@ -25,7 +25,7 @@ img {
 
 [class|="col"]:last-child { 
     margin-right: 0px;
-} */
+} 
 
 [class|="col"] + [class|="col"] {
     margin-left: 0.5rem;
