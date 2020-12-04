@@ -36,12 +36,11 @@ header #logo{
 
 
 #logos{
-    display: inline;
-    margin: 9%;
+    margin: 1%;
 }
 
 #logos img{
-    height: 125px;
+    height: 150px;
     margin: 0 5%;
 }
 
