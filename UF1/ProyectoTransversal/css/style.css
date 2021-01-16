@@ -1,3 +1,4 @@
+/* CABEZERA */
 header nav{
     padding: 0 10%;
 }
@@ -29,12 +30,16 @@ header #logo{
     text-align: center;
     padding: 15px;
 }
+/* FINAL CABEZERA */
 
+/* IMAGEN GRANDE */
 #imagenGrande{
     width: 100%;
 }
+/* FINAL IMAGEN GRANDE */
 
 
+/* LOGOS */
 #logos{
     margin: 1%;
 }
@@ -43,7 +48,9 @@ header #logo{
     height: 150px;
     margin: 0 5%;
 }
+/* FINAL LOGOS */
 
+/* DESCRIPCION */
 #descripcion h2{
     color: #1eff38af;
     font-size: 20px;
@@ -70,3 +77,4 @@ header #logo{
     text-align: center;
     margin: 0 30%;
 }
+/* FINAL DESCRIPCION */
