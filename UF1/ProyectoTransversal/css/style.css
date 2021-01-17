@@ -27,8 +27,8 @@ header #logo{
 }
 /*#39374D*/
 #botoCompra{
-    border-radius: 5px;
-    background-color: #1eff38af;
+    border-radius: 10px;
+    background-color: #00D664;
     border: none;
     color: white;
     text-align: center;
@@ -89,9 +89,6 @@ header #logo{
     display: inline-block;
     font-size: 18px;
 }
-/*#descripcion > div{
-    display: inline;
-}*/
 
 #descripcion h3{
     color: black;
@@ -103,5 +100,12 @@ header #logo{
     border-radius: 5px;
     padding: 0;
     width:10%
+}
+
+#icono{
+    font-size: 32px;
+    border-radius: 50%;
+    color: white;
+    background-color: #00D664;
 }
 /* FINAL DESCRIPCION */
