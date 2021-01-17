@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 /* CABEZERA */
 header nav{
     padding: 0 10%;
@@ -21,7 +25,7 @@ header #logo{
     width: 130px;
     margin: 0 10%;
 }
-
+/*#39374D*/
 #botoCompra{
     border-radius: 5px;
     background-color: #1eff38af;
@@ -72,9 +76,32 @@ header #logo{
 }
 
 #descripcion p{
-    color: grey;
+    color: #748494;
     font-size: 21px;
     text-align: center;
     margin: 0 30%;
+}
+
+#descripcion > div{
+    text-align: center;
+}
+#descripcion > div > div{
+    display: inline-block;
+    font-size: 18px;
+}
+/*#descripcion > div{
+    display: inline;
+}*/
+
+#descripcion h3{
+    color: black;
+    text-transform: capitalize;
+}
+
+#descripcion hr{
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    padding: 0;
+    width:10%
 }
 /* FINAL DESCRIPCION */
