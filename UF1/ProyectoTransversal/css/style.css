@@ -109,3 +109,17 @@ header #logo{
     background-color: #00D664;
 }
 /* FINAL DESCRIPCION */
+
+/* MÒBIL */
+#mobil{
+    text-align: center;
+}
+
+#mobil > div{
+    display: inline-block;
+}
+
+#mobil > p{
+    color:#748494;
+}
+/* FINAL MÒBIL */
