@@ -1,3 +1,8 @@
+body{
+    font-family: sans-serif;
+}
+
+/* CABEZERA */
 header nav{
     padding: 0 10%;
 }
@@ -20,21 +25,25 @@ header #logo{
     width: 130px;
     margin: 0 10%;
 }
-
+/*#39374D*/
 #botoCompra{
-    border-radius: 5px;
-    background-color: #1eff38af;
+    border-radius: 10px;
+    background-color: #00D664;
     border: none;
     color: white;
     text-align: center;
     padding: 15px;
 }
+/* FINAL CABEZERA */
 
+/* IMAGEN GRANDE */
 #imagenGrande{
     width: 100%;
 }
+/* FINAL IMAGEN GRANDE */
 
 
+/* LOGOS */
 #logos{
     margin: 1%;
 }
@@ -43,7 +52,9 @@ header #logo{
     height: 150px;
     margin: 0 5%;
 }
+/* FINAL LOGOS */
 
+/* DESCRIPCION */
 #descripcion h2{
     color: #1eff38af;
     font-size: 20px;
@@ -65,8 +76,50 @@ header #logo{
 }
 
 #descripcion p{
-    color: grey;
+    color: #748494;
     font-size: 21px;
     text-align: center;
     margin: 0 30%;
 }
+
+#descripcion > div{
+    text-align: center;
+}
+#descripcion > div > div{
+    display: inline-block;
+    font-size: 18px;
+}
+
+#descripcion h3{
+    color: black;
+    text-transform: capitalize;
+}
+
+#descripcion hr{
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    padding: 0;
+    width:10%
+}
+
+#icono{
+    font-size: 32px;
+    border-radius: 50%;
+    color: white;
+    background-color: #00D664;
+}
+/* FINAL DESCRIPCION */
+
+/* MÒBIL */
+#mobil{
+    text-align: center;
+}
+
+#mobil > div{
+    display: inline-block;
+}
+
+#mobil > p{
+    color:#748494;
+}
+/* FINAL MÒBIL */
