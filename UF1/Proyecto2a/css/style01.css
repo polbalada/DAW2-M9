@@ -27,6 +27,7 @@
    
  .title {
    flex: 4;
+   text-align: end;
  }
  
  .items-container {
@@ -44,7 +45,7 @@
  
  @font-face {
     font-family: Text;
-    src: url(../fonts/Lato-Light.ttf) format("truetype");
+    src: url(../fonts/Lato-Hairline.ttf) format("truetype");
  }
  
  .container {
