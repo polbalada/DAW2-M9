@@ -1,3 +1,4 @@
+
 body{
     font-family: sans-serif;
     background-color: #FFFFFF;
@@ -10,12 +11,11 @@ header nav{
 header nav *{
     color: grey;
     text-decoration: none;
-    margin: 0% 1%;
+    margin-left:1%;
 }
 header *{
     display: inline;
     align-items: baseline;
-    
 }
 header #icon{
     background-color: white;
@@ -154,7 +154,6 @@ header #logo{
     text-align: justify;
 }
 #stats h1{
-    /*color: darkgrey;*/
     font-size: 50px;
     text-decoration: none;
     font-weight: normal;
@@ -186,7 +185,7 @@ header #logo{
 }
 #logoCircular{
     background-color:#fff;
-    border:1px solid lightslategray;    
+    border:1px solid lightgray;    
     height:100px;
     border-radius:50%;
     -moz-border-radius:50%;
@@ -199,9 +198,6 @@ header #logo{
 }
 
 /* FINAL STATS */
-
-/* COMENTARIS */
-/* FINAL COMENTARIS*/
 
 /* GET STARTED*/
 #getStarted h2{
@@ -260,8 +256,116 @@ header #logo{
 }
 /* FINAL DESCARREGA */
 
+/* EMAIL*/
+#email{
+    margin-left: auto;
+    margin-right: auto;
+    width: 770px;
+    background-image: url('../img/emailBackground.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 5%;
+    -moz-border-radius:5%;
+    margin-bottom: -50px;
+    position: relative;
+    top: -100px;
+}
+/* FINAL EMAIL*/
+
 /* FOOTER */
 footer{
     background-color: #F7F4FB;
+    margin-top: 300px;
+}
+#cercle{  
+    border:1px solid #dadada;
+    color: #748494;
+    height:50px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:50px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+#cercle:hover{
+    background-color: #00D664;
+    color: white;
+}
+#cercle > i{
+    font-size: 20px;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer h1{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1001px){
+    footer{
+        text-align: center;
+    }
+}
+#columnas{
+    display: inline-block;
+}
+#columnas > #columnas{
+    margin-left: 7%;
+}
+#columnas li:hover{
+    color: #00D664;
+    text-decoration: underline;
+}
+#columnas h2{
+    color: #00D664;
+    font-size: 18px;
+}
+input[type=button], input[type=submit]{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: -100px;
+}
+input[type=email]{
+    border: 2px solid lightgray;
+    border-radius: 300px;
+    width: 50%;
+    padding: 10px;
 }
 /* FINAL FOOTER*/
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1001px){
+    header #logo{
+        width: 100px;
+        margin: 0;
+    }
+    nav{
+        font-size: 15px;
+    }
+    #contImagenGrande{
+        height: 400px;
+    }
+    #descripcion > div > div{
+        width: 100%;
+    }
+    #stats{
+        text-align: center;
+    }
+    #stats > div{
+        width: 100%;
+    }
+    #descarrega{
+        height: 500px;
+        padding-top: 5%;
+    }
+}
+/* FINAL RESPONSIVE */
