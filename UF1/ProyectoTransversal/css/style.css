@@ -6,7 +6,8 @@ body{
 
 /* CABEZERA */
 header nav{
-    padding: 0 10%;
+    margin-left:8%;
+    margin-right: 2%;
 }
 header nav *{
     color: grey;
