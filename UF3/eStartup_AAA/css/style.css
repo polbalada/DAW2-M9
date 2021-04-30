@@ -292,6 +292,7 @@ span {
 
 #hero .btns a:hover {
   color: #71c55d;
+  text-decoration: underline;
 }
 
 /*--------------------------------------------------------------
@@ -992,6 +993,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* Pricing Table Section
 --------------------------------*/
+.list-unstyled > span{
+  font-weight: bold;
+}
+
 #pricing .block-pricing {
   background: #fff;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
